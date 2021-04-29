@@ -22,9 +22,12 @@
     "body-parser": "^1.19.0",
     "dotenv": "^8.2.0",
     "express": "^4.17.1",
+    "jspdf": "^2.3.1",
+    "jspdf-autotable": "^3.5.14",
     "mongoose": "^5.10.12"
   },
   "devDependencies": {
+    "excel4node": "^1.7.2",
     "nodemon": "^2.0.6"
   }
 }
