@@ -7,6 +7,7 @@ const schema = new Schema({
         type: String,
         enum: ['GRAY', 'BLUE', 'INDIGO', 'PURPLE', 'PINK'],
     },
+    priorityNumber: { type: Number },
     priority: {
         type: String,
         enum: ['HIGH', 'MEDIUM', 'LOW'],
